@@ -9,8 +9,8 @@ class Category(BaseModel):
 
 
 class CategoryCreate(BaseModel):
-    name: str | None = None
+    name: str
 
 
 class CategoryUpdate(BaseModel):
-    name: str | None = None
+    name: str
